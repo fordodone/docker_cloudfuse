@@ -13,6 +13,10 @@
 
      cd /mnt/cloudfuse && ls
 
+## TODO
+* figure out how to run without --privileged flag
+* may need to set memory limits on container for large fuse operations
+
 ----
 ## reference
 * [GitHub redbo/cloudfuse] (https://github.com/redbo/cloudfuse)

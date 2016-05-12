@@ -2,7 +2,6 @@
 FROM ubuntu:16.04
 MAINTAINER ForDoDone <fordodone@gmail.com>
 
-# set timezone explicitly
 RUN apt-get update && \
     apt-get install -y build-essential libcurl4-openssl-dev libxml2-dev libssl-dev libfuse-dev wget pkg-config libjson0 libjson0-dev fuse vim 
 
